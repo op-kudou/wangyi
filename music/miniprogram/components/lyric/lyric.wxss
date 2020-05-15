@@ -1,0 +1,24 @@
+/* components/lyric/lyric.wxss */
+scroll-view{
+  color:#fff;
+  width: 100%;
+  height: 70%;
+  font-size: 32rpx;
+  overflow: hidden;
+}
+.lyric-panel{
+  position: relative;
+  top:50%;
+  overflow: hidden;
+}
+.lyric{
+  min-height: 64rpx;
+  text-align: center;
+}
+
+/* 歌词高亮显示 */
+.highlight-lyric{
+  color:#0099ff;
+  font-size: 42rpx;
+  margin-bottom: 10rpx;
+}

@@ -1,0 +1,5 @@
+  <y-bottom-modal modalShow="{{modalShow}}">
+    <view slot="modal-content">
+      <button class='login' open-type="getUserInfo" ongetuserinfo="onGetUserInfo">获取信息</button>
+    </view>
+  </y-bottom-modal>

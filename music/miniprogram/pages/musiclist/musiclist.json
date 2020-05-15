@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "y-musiclist": "/components/musicList/musicList"
+  },
+  "navigationBarTitleText": "歌曲"
+}

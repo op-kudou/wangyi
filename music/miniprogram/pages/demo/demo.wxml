@@ -1,0 +1,2 @@
+<!--miniprogram/pages/demo/demo.wxml-->
+<button bindtap="music"></button>

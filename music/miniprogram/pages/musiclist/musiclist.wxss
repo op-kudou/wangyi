@@ -1,0 +1,41 @@
+.detail-container{
+  height: 320rpx;
+  filter:blur(40rpx);
+  opacity: 0.3;
+  background-color: #0099ff;
+}
+.detail-mask{
+  position: absolute;
+  width: 100%;
+  height: 320rpx;
+  border-color: #333;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.detail-img{
+  width: 280rpx;
+  height: 280rpx;
+  margin: 25rpx 10rpx;
+  border-radius: 7rpx;
+  border:2px solid #fff;
+}
+.detail-info{
+  display: flex;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+.detail view{
+  color: #fff;
+  font-size: 36rpx;
+}
+.detail{
+  display: flex;
+  align-items: center;
+}
+.detail-nm{
+  font-weight: 400;
+  font-size: 36rpx;
+  margin-top: 140rpx;
+}

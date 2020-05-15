@@ -1,0 +1,35 @@
+// miniprogram/pages/demo/demo.js
+Page({
+  data:{
+    process:0
+  },
+  music()
+  {
+    wx.cloud.callFunction({
+      name:'TcbRouter',
+      data:{
+        $url:'music'
+      }
+    }).then((res)=>
+    {
+      console.log('demo:',res);
+    });
+  },
+  movie()
+  {
+    wx.cloud.callFunction({
+      name:'TcbRouter',
+      data:{$url:'movie'}
+    }).then((res)=>
+    {
+      console.log('movie:',res);
+    });
+  },
+  pro()
+  {
+    setTimeout(()=>
+    {
+      var timer = setInterval();
+    });
+  }
+})

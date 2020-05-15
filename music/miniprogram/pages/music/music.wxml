@@ -1,0 +1,20 @@
+<swiper indicator-dots="true" autoplay="true" interval="2000">
+  <block wx:for="{{swiperImgs}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+    <swiper-item>
+      <!-- 
+        mode:
+          scaleToFill:缩放模式，不保持纵横比缩放图片
+          widthFix:缩放模式，宽度不变，高度自动变化
+          aspectFit:缩放模式，保持纵横比缩放图片
+      -->
+      <image src="{{item.url}}" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 展示歌单 -->
+<view class="play-container">
+  <block wx:for="{{playlist}}" wx:key="index" wx:for-item="item" wx:for-index="index">
+    <y-playlist playlist="{{item}}"></y-playlist>
+  </block>
+</view>
